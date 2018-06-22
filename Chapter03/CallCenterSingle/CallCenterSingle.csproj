@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BD6424EE-2932-4EB9-ACB6-073C682A209C}</ProjectGuid>
+    <ProjectGuid>{6CFA96DB-47E7-4B40-9ED8-BF8D78D66BAC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TowerOfHanoi</RootNamespace>
-    <AssemblyName>TowerOfHanoi</AssemblyName>
+    <RootNamespace>CallCenterSingle</RootNamespace>
+    <AssemblyName>CallCenterSingle</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CallCenter.cs" />
+    <Compile Include="IncomingCall.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
